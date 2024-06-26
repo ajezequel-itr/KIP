@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  php:
+    image: aboutgoods/kip:alpha
+    environment:
+      APP_ENV: dev
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - ./var/storage:/storage
+    ports:
+      - "8000:8000"
