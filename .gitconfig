@@ -1,0 +1,6 @@
+[user]
+  email = wburillon@i-tracing.com
+    
+[url "git@gitlab.com-itracing"]
+  insteadOf = git@gitlab.com
+  
